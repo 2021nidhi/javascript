@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn1" onclick="confirm_f()">confirm</button>
+
+    <script>
+        function confirm_f(){
+            if(confirm("leaving this page?")==true){
+                // alert("you clicked ok.")
+                document.body.style.backgroundColor = "lightpink"
+            }else{
+                // alert("ypu clicked cancle.")
+                document.body.style.backgroundColor = "lightblue"
+            }
+        }
+    </script>
+</body>
+</html>

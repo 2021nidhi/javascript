@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myfunc(){
+            var inputval = document.querySelector("#name").value;
+            document.querySelector("#result").innerText = inputval;
+            return false
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <label for="">enetr name :</label>
+        <input type="text" id="name">
+
+        <br><br>
+        <button onclick="myfunc()">click here</button>
+    </form>
+    <p id="result"></p>
+</body>
+</html>
